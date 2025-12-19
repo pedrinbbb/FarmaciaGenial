@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor0: #DD342E;
+    --cor1: #dc322e;
+    --cor2: #383D88;
+    --cor3: #DF332E;
+    --cor5: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+header{
+    background-color: var(--cor5);
+    color: var(--cor5);
+    text-align: center;
+    padding: 20px;
+}
+header  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--cor2);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+header p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6em;
+    color: var(--cor3);
+}
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: fonte1;
+}
+nav a:hover{
+    background-color: var(--cor2);
+    transition: 0.6s;
+    color: white;
+    
+}
+main{
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+main h2{
+    padding-bottom: 20px;
+    font-family: fonte3;
+}
+img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+aside{
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: fonte1;
+    font-size: 0.8em;
+    background-color: #FCFCFC;
+    margin: 5px;
+}
+aside p{
+    color: blue;
+    font-family: fonte1;
+    font-size: 1.2em;
+   
+    text-align: left;
+    padding: 2px;
+
+}
+aside a{
+    color: red;
+    text-decoration: none;
+    font-family: fonte1;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 2px;
+    line-height: 3em;
+
+}
+aside a:hover{
+    text-decoration: underline;
+}
+aside:hover{
+    background-color: #8585857c;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267);
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
