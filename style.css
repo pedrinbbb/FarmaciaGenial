@@ -38,7 +38,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -48,18 +48,79 @@ nav a:hover{
     background-color: var(--cor2);
     transition: 0.6s;
     color: white;
+    background-color: #f56865;
     
 }
+section h1{
+    padding-top:100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+.fundo-banner h3{
+    color: #f56865;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+
+}
+.fundo-banner p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    width: 450px;
+    font-size: 1.2em;
+    padding-bottom: 24px;
+}
+section.fundo-banner{
+    background-color: #2255D2;
+    padding: 20px;
+    height: 62vh;
+    width: 98%;
+    border-radius: 20px;
+}
+
+.fundo-banner a{
+    text-decoration: none;
+    color: white;
+    background-color: #f56865;
+    display: block;
+    padding: 12px;
+    font-family: fonte1;
+    font-size: 1.1em;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+.fundo-banner a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #ff0400;
+    transition: 0.5s
+}
+
+.fundo-banner img{
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border: 2px solid rgb(88, 85, 253);
+    border-radius: 20px;
+}
+.fundo-banner img:hover{
+    transform: rotateX();
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 main{
-    max-width: 1500px;
     margin: auto;
     padding: 20px;
 }
 main h2{
+    padding-top: 50px;
     padding-bottom: 20px;
     font-family: fonte3;
 }
-img{
+aside img{
     width: 80px;
     height: 80px;
     margin: auto;
