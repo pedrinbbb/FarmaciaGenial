@@ -51,32 +51,42 @@ nav a:hover{
     background-color: #f56865;
     
 }
-section h1{
-    padding-top:100px;
-    color: white;
+.fundo-banner h1{
+    padding-top: 160px ;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
 .fundo-banner h3{
     color: #f56865;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
 
 }
 .fundo-banner p{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3em;
     width: 450px;
     font-size: 1.2em;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 26px;
 }
 section.fundo-banner{
+    background-image: url(img/remediosbanner3.png);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #2255D2;
     padding: 20px;
     height: 62vh;
-    width: 98%;
+    margin: auto;
+    width: 70%;
     border-radius: 20px;
+    position: relative;
 }
 
 .fundo-banner a{
@@ -97,20 +107,6 @@ section.fundo-banner{
     transition: 0.5s
 }
 
-.fundo-banner img{
-    max-width: 500px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    border: 2px solid rgb(88, 85, 253);
-    border-radius: 20px;
-}
-.fundo-banner img:hover{
-    transform: rotateX();
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
 main{
     margin: auto;
     padding: 20px;
@@ -124,10 +120,12 @@ aside img{
     width: 80px;
     height: 80px;
     margin: auto;
-    display: block;
 }
 aside{
-    float: left;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 200px;
     border: 1px solid rgba(0, 0, 0, 0.123);
     padding: 20px;
     border-radius: 10px;
