@@ -53,42 +53,42 @@ nav a:hover{
 }
 .fundo-banner h1{
     padding-top: 160px ;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
 .fundo-banner h3{
     color: #f56865;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
 
 }
 .fundo-banner p{
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.527);
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.3em;
     width: 450px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding-top: 10px;
     padding-bottom: 26px;
 }
 section.fundo-banner{
-    background-image: url(img/remediosbanner3.png);
+    background-image: url(img/banner.jpg);
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #2255D2;
+    background-color: #0044f1ea;
     padding: 20px;
     height: 62vh;
     margin: auto;
-    width: 70%;
+    width: 100%;
     border-radius: 20px;
     position: relative;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.418);
 }
-
 .fundo-banner a{
     text-decoration: none;
     color: white;
@@ -119,26 +119,31 @@ main h2{
 aside img{
     width: 80px;
     height: 80px;
+    padding: 20px 20px 10px 20px;
+}
+section.conteudo{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    max-width: 1150px;
     margin: auto;
 }
 aside{
-    display: flex;
-    gap: 10px;
+    display: inline-block;
     flex-wrap: wrap;
     max-width: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.123);
-    padding: 20px;
+    border: 0px solid rgba(0, 0, 0, 0.123);
+    padding: 16px;
+     border: 1px solid rgba(0, 0, 0, 0.377);
     border-radius: 10px;
     font-family: fonte1;
     font-size: 0.8em;
     background-color: #FCFCFC;
-    margin: 5px;
 }
 aside p{
     color: blue;
     font-family: fonte1;
     font-size: 1.2em;
-   
     text-align: left;
     padding: 2px;
 
