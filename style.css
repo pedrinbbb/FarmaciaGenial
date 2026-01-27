@@ -54,20 +54,19 @@ nav a:hover{
 }
 .fundo-banner h1{
     padding-top: 160px ;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
 .fundo-banner h3{
     color: #f56865;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
-
 }
 .fundo-banner p{
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.527);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
     color: #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.2em;
@@ -77,19 +76,20 @@ nav a:hover{
     padding-bottom: 26px;
 }
 section.fundo-banner{
-    background-image: url(img/banner.jpg);
+    background-image: url(img/fundobanner.png);
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #0044f1ea;
-    padding: 20px;
+    padding: 0px 0px 0px 54px;
     height: 62vh;
     margin: auto;
     max-width: 1600px;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     position: relative;
-    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.171);
 }
+
 .fundo-banner a{
     text-decoration: none;
     color: white;
@@ -107,10 +107,13 @@ section.fundo-banner{
     background-color: #ff0400;
     transition: 0.5s
 }
+span.destaque{
+    color: #f56865;
+}
 
 main{
     margin: auto;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 main h2{
     color: #000000;
@@ -195,7 +198,7 @@ aside:hover{
   max-width: 260px;
 }
 .footer-col a {
-  color: #b1b1b1;
+  color: #ffffff;
   text-decoration: none;
   font-size: 14px;
 }
@@ -215,6 +218,36 @@ aside:hover{
     text-align: center;
   }
 }
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+.cabecalho-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho-container span{
+   font-size: 1.6em;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #383D88;
+}
+.cabecalho-col a{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 1.2em;
+    color: #1b2027;
+    font-family: fonte2;
+}
+.cabecalho-col a:hover{
+    color: red;
+}
+
 
 
 
