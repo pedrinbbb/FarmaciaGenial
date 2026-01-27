@@ -97,7 +97,6 @@ section.fundo-banner{
     padding: 0px 0px 0px 54px;
     height: 64vh;
     margin: auto;
-    width: 100%;
     border-radius: 0px;
     position: relative;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.171);
@@ -205,7 +204,7 @@ aside:hover{
 .footer-container {
     display: flex;
     justify-content: space-around;
-    gap: 0px;
+    gap: 6px;
 }
 
 .footer-col img{
@@ -249,6 +248,8 @@ aside:hover{
     text-align: center;
   }
 }
+
+/*banner responsivo*/
 @media(max-width: 571px) {
     .cabecalho {
         font-size: 0.5em;
@@ -256,8 +257,54 @@ aside:hover{
     .cabecalho-col img{
         width: 26px;
     }
-
-
+    .fundo-banner h1{
+        padding-top: 42px;
+        font-size: 1.5em;
+    }
+    .fundo-banner h3{
+        font-size: 1.5em;
+    }
+    .fundo-banner p{
+        font-size: 1em;
+        max-width: 280px;
+    }
+    section.fundo-banner{
+        padding: 0px 0px 0px 20px;
+        height: 290px;
+    }
+}
+/* conteudo responsivo */
+@media(max-width: 571px) {
+    main h2{
+        text-align: left;
+        padding: 32px 0px 20px 12px;
+        font-size: 1.2em;
+    }
+    aside{
+        padding: 8px;
+    }
+}
+/* imagem produto responsiva*/
+@media(max-width: 411px){
+    aside img{
+        width: 64px;
+        height: 64px;
+        margin: auto;
+    }
+    aside a{
+        font-size: 12px;
+    }
+    aside h3{
+        font-size: 14px;
+    }
+    aside p{
+        font-size: 12px;
+    }
+}
+@media(max-width: 1260px){
+    .footer-col{
+    flex-direction: column 2;
+    }
 }
 
 
