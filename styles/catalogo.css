@@ -1,0 +1,121 @@
+:root{
+    --cor0: #DD342E;
+    --cor1: #dc322e;
+    --cor2: #383D88;
+    --cor3: #DF332E;
+    --cor5: #ffffff;
+}
+@font-face {
+    font-family: fonte;
+    src: url(../fontes/PassoTest-SemiBold.ttf) format(truetype);
+}
+@font-face {
+    font-family: fonte1;
+    src: url(../fontes/PassoTest-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(../fontes/PassoTest-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(../fontes/PassoTest-Bold.ttf) format(truetype);
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cabecalho{
+    background-color: white;
+    padding: 12px;
+}
+.cabecalho-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho-container span{
+    color: #383D88;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: fonte2;
+}
+.cabecalho-col a{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 1.2em;
+    color: #1b2027;
+    font-family: fonte2;
+}
+.cabecalho-col a:hover{
+    color: red;
+}
+.cabecalho h3{
+    font-family: fonte1;
+    color: red;
+}
+.catalogo{
+    background-image: linear-gradient(to right, #1E3A8B, #1E40AF);
+    color: white;
+    text-align: center;
+    font-family: fonte1;
+    padding: 22px;
+    line-height: 2.5em;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+aside img{
+    width: 100px;
+}
+section.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 62px 0px;
+}
+aside{
+    display: inline-block;
+    flex-wrap: wrap;
+    max-width: 200px;
+    border: 0px solid rgba(0, 0, 0, 0.123);
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    font-family: fonte1;
+    font-size: 0.8em;
+    background-color: #FCFCFC;
+}
+aside p{
+    color: blue;
+    font-family: fonte1;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 2px;
+
+}
+aside a{
+    color: red;
+    text-decoration: none;
+    font-family: fonte1;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 2px;
+    line-height: 3em;
+
+}
+aside a:hover{
+    text-decoration: underline;
+}
+aside:hover{
+    background-color: #8585857c;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267);
+}
