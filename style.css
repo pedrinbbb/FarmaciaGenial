@@ -69,8 +69,8 @@ nav a:hover{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.527);
     color: #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.3em;
-    width: 450px;
+    line-height: 1.2em;
+    max-width: 450px;
     font-size: 1.4em;
     padding-top: 10px;
     padding-bottom: 26px;
@@ -84,7 +84,7 @@ section.fundo-banner{
     padding: 20px;
     height: 62vh;
     margin: auto;
-    width: 100%;
+    max-width: 1600px;
     border-radius: 20px;
     position: relative;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.418);
@@ -112,9 +112,12 @@ main{
     padding: 20px;
 }
 main h2{
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: fonte3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 aside img{
     width: 80px;
@@ -125,7 +128,7 @@ section.conteudo{
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    max-width: 1150px;
+    max-width: 90%;
     margin: auto;
 }
 aside{
