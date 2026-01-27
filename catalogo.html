@@ -10,11 +10,11 @@
     <div class="cabecalho">
         <div class="cabecalho-container">
             <div class="cabecalho-col">
-                <a href="#"><span class="titulo"> <img src="img/cabecalho.png" width="50px">Farmacia Genial</span></a>
+                <a href="index.html"><span class="titulo"> <img src="img/cabecalho.png" width="50px">Farmacia Genial</span></a>
             </div>
             <div class="cabecalho-col">
-                <a href="#">Inicio</a>
-                <a href="#">Catálogo</a>
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
             </div>
             <div>
                 <h3>Entrega gratis</h3>
@@ -25,7 +25,12 @@
             <h1>Nossos Produtos</h1>
             <p>Encontre tudo o que você precisa para cuidar da sua saúde e bem-estar</p>
         </div>
-    <main>  
+    <main> 
+         <form action="#">
+            <input type="text" id="pesquisa" placeholder="Encontre seu produto..." onkeyup="pesquisar()">
+
+            <p id="resultado"></p>
+         </form> 
         <section class="conteudo">
             <aside>
                 <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
@@ -39,12 +44,29 @@
             <aside>
                 <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
                 <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
+                <h3>Dipirona 500mg</h3>
+                <p>Por R$ 10,00</p>
+                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
+                    Adicionar no carrinho</a>
+            </aside>
+            <aside>
+                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
+                <img src="img/paracetamol.png"></a>
+                <h3>Florent adulto</h3>
+                <p>Por R$ 10,00</p>
+                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
+                    Adicionar no carrinho</a>
+            </aside>
+            <aside>
+                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
+                <img src="img/paracetamol.png"></a>
+                <h3>Celetil</h3>
                 <p>Por R$ 10,00</p>
                 <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
                     Adicionar no carrinho</a>
             </aside>
     </main>
-    
+    <script src="pesquisa.js"></script>
+
 </body>
 </html>
