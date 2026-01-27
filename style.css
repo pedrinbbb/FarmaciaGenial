@@ -83,12 +83,17 @@ section.fundo-banner{
     background-repeat: no-repeat;
     background-color: #0044f1ea;
     padding: 0px 0px 0px 54px;
-    height: 62vh;
+    height: 80vh;
     margin: auto;
     max-width: 100%;
     border-radius: 0px;
     position: relative;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.171);
+}
+
+section.fundo-banner a{
+    display: inline;
+    margin-right: 12px;
 }
 
 .fundo-banner a{
@@ -179,7 +184,7 @@ aside:hover{
 .footer {
     background: radial-gradient(circle at top, #1E3EA1, #1E3EA1);
     color: #ccc;
-    padding: 48px 10px 30px;
+    padding: 48px 22px 30px;
     font-family: Arial, sans-serif;
     margin-top: 50px;
 }
@@ -187,7 +192,7 @@ aside:hover{
 .footer-container {
     display: flex;
     justify-content: space-around;
-    gap: 60px;
+    gap: 0px;
 }
 
 .footer-col img{
