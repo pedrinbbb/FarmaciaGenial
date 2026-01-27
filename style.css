@@ -34,6 +34,7 @@ header p{
 nav{
     background-color: #ffffff;
     padding: 10px;
+    text-align: center;
 
 }
 nav a{
@@ -169,6 +170,52 @@ aside:hover{
     transition: 0.5s;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267);
 }
+.footer {
+  background: radial-gradient(circle at top, #000000, #000000);
+  color: #ccc;
+  padding: 60px 80px 30px;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-col h2 {
+  padding-bottom: 18px;  
+  color: #fff;
+  letter-spacing: 2px;
+}
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 260px;
+}
+.footer-col a {
+  color: #b1b1b1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+/*responsivo footer */
+@media (max-width: 700px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
 
 
    
