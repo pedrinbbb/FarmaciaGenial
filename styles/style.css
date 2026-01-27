@@ -136,11 +136,11 @@ main{
     padding: 0px 0px 20px 0px;
 }
 main h2{
-    color: #000000;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+    color: #2d2d2d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.225);
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: fonte2;
     text-align: center;
 }
 aside img{
@@ -252,7 +252,7 @@ aside:hover{
 /*banner responsivo*/
 @media(max-width: 571px) {
     .cabecalho {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     .cabecalho-col img{
         width: 26px;
