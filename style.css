@@ -14,20 +14,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 .cabecalho{
     background-color: rgb(255, 255, 255);
+    padding: 10px 0px 10px 0px;
+    position: sticky;
 }
+
 .cabecalho-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .cabecalho-container span{
-   font-size: 1.3em;
-   display: flex;
-   align-items: center;
-   gap: 6px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   color: #383D88;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #383D88;
 }
+
 .cabecalho-col a{
     text-decoration: none;
     padding: 6px;
@@ -35,13 +40,16 @@
     color: #1b2027;
     font-family: fonte2;
 }
+
 .cabecalho-col a:hover{
     color: red;
 }
+
 .cabecalho h3{
     font-family: fonte1;
     color: #DF332E;
 }
+
 .fundo-banner h1{
     padding-top: 160px ;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
@@ -49,12 +57,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
+
 .fundo-banner h3{
     color: #f56865;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
 }
+
 .fundo-banner p{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
     color: #ffffff;
@@ -65,6 +75,7 @@
     padding-top: 10px;
     padding-bottom: 26px;
 }
+
 section.fundo-banner{
     background-image: url(img/fundobanner.png);
     background-position: left top;
@@ -92,11 +103,13 @@ section.fundo-banner{
     width: 150px;
     border-radius: 10px;
 }
+
 .fundo-banner a:hover{
     color: rgb(255, 255, 255);
     background-color: #ff0400;
     transition: 0.5s
 }
+
 span.destaque{
     color: #f56865;
 }
@@ -131,7 +144,7 @@ aside{
     max-width: 200px;
     border: 0px solid rgba(0, 0, 0, 0.123);
     padding: 16px;
-     border: 1px solid rgba(0, 0, 0, 0.377);
+    border: 1px solid rgba(0, 0, 0, 0.377);
     border-radius: 10px;
     font-family: fonte1;
     font-size: 0.8em;
@@ -164,17 +177,17 @@ aside:hover{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267);
 }
 .footer {
-  background: radial-gradient(circle at top, #1E3EA1, #1E3EA1);
-  color: #ccc;
-  padding: 60px 80px 30px;
-  font-family: Arial, sans-serif;
-  margin-top: 50px;
+    background: radial-gradient(circle at top, #1E3EA1, #1E3EA1);
+    color: #ccc;
+    padding: 48px 10px 30px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-around;
-  gap: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
 }
 
 .footer-col img{
@@ -188,23 +201,23 @@ aside:hover{
     transition: 0.5s;
 }
 .footer-col h2 {
-  padding-bottom: 18px;  
-  color: #fff;
-  letter-spacing: 2px;
+    padding-bottom: 18px;  
+    color: #fff;
+    letter-spacing: 2px;
 }
 .footer-col p {
-  font-size: 14px;
-  line-height: 1.6;
-  max-width: 260px;
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 260px;
 }
 .footer-col a {
-  color: #BFDBEB;
-  text-decoration: none;
-  font-size: 14px;
+    color: #BFDBEB;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .footer-col a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 /*responsivo footer */
 @media (max-width: 700px) {
