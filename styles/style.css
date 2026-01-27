@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 .cabecalho{
     background-color: rgb(255, 255, 255);
-    padding: 0px 0px 0px 0px;
+    padding: 0px 12px 0px 12px;
     position: sticky;
 }
 
@@ -65,6 +65,18 @@
     font-size: 2.5em;
 }
 
+.fundo-banner a.fale-conosco{
+    color: wheat;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(255, 0, 0, 0);
+}
+
+.fundo-banner a.fale-conosco:hover{
+    color: black;
+    background-color: white;
+}
+
 .fundo-banner p{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
     color: #ffffff;
@@ -85,13 +97,8 @@ section.fundo-banner{
     padding: 0px 0px 0px 54px;
     height: 64vh;
     margin: auto;
-<<<<<<< HEAD
-    width: 80%;
-    border-radius: 20px;
-=======
-    max-width: 100%;
+    width: 100%;
     border-radius: 0px;
->>>>>>> c089e8b8690b6d969bec7844e040df12a94fed63
     position: relative;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.171);
 }
@@ -104,13 +111,14 @@ section.fundo-banner a{
 .fundo-banner a{
     text-decoration: none;
     color: white;
-    background-color: #f56865;
+    background-color: #fd403d;
     display: block;
     padding: 12px;
     font-family: fonte1;
     font-size: 1.1em;
     text-align: center;
     width: 150px;
+    box-shadow: 1px 1px 8px rgba(255, 0, 0, 0.79);
     border-radius: 10px;
 }
 
@@ -126,13 +134,7 @@ span.destaque{
 
 main{
     margin: auto;
-<<<<<<< HEAD
-    padding: 20px;
-    max-width: 1200px;
-    background-color:white;
-=======
     padding: 0px 0px 20px 0px;
->>>>>>> c089e8b8690b6d969bec7844e040df12a94fed63
 }
 main h2{
     color: #000000;
@@ -247,7 +249,16 @@ aside:hover{
     text-align: center;
   }
 }
+@media(max-width: 571px) {
+    .cabecalho {
+        font-size: 0.5em;
+    }
+    .cabecalho-col img{
+        width: 26px;
+    }
 
+
+}
 
 
 
