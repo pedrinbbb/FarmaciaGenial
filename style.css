@@ -12,45 +12,35 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-
-header{
-    background-color: var(--cor5);
-    color: var(--cor5);
-    text-align: center;
-    padding: 20px;
+.cabecalho{
+    background-color: rgb(255, 255, 255);
 }
-header  h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--cor2);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
+.cabecalho-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-header p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.6em;
-    color: var(--cor3);
+.cabecalho-container span{
+   font-size: 1.3em;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: #383D88;
 }
-nav{
-    background-color: #ffffff;
-    padding: 10px;
-    text-align: center;
-
-}
-nav a{
+.cabecalho-col a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: fonte1;
+    padding: 6px;
+    font-size: 1.2em;
+    color: #1b2027;
+    font-family: fonte2;
 }
-nav a:hover{
-    background-color: var(--cor2);
-    transition: 0.6s;
-    color: white;
-    background-color: #f56865;
-    
+.cabecalho-col a:hover{
+    color: red;
+}
+.cabecalho h3{
+    font-family: fonte1;
+    color: #DF332E;
 }
 .fundo-banner h1{
     padding-top: 160px ;
@@ -84,8 +74,8 @@ section.fundo-banner{
     padding: 0px 0px 0px 54px;
     height: 62vh;
     margin: auto;
-    max-width: 1600px;
-    border-radius: 0px 0px 20px 20px;
+    max-width: 100%;
+    border-radius: 0px;
     position: relative;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.171);
 }
@@ -113,7 +103,7 @@ span.destaque{
 
 main{
     margin: auto;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 0px 20px 0px;
 }
 main h2{
     color: #000000;
@@ -183,10 +173,20 @@ aside:hover{
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 60px;
 }
 
+.footer-col img{
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+    border-radius: 11px;
+}
+.footer-col img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .footer-col h2 {
   padding-bottom: 18px;  
   color: #fff;
@@ -198,13 +198,13 @@ aside:hover{
   max-width: 260px;
 }
 .footer-col a {
-  color: #ffffff;
+  color: #BFDBEB;
   text-decoration: none;
   font-size: 14px;
 }
 
 .footer-col a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 /*responsivo footer */
 @media (max-width: 700px) {
@@ -218,35 +218,7 @@ aside:hover{
     text-align: center;
   }
 }
-.cabecalho{
-    background-color: rgb(255, 255, 255);
-    padding-top: 14px;
-    padding-bottom: 14px;
 
-}
-.cabecalho-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.cabecalho-container span{
-   font-size: 1.6em;
-   display: flex;
-   align-items: center;
-   gap: 6px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   color: #383D88;
-}
-.cabecalho-col a{
-    text-decoration: none;
-    padding: 6px;
-    font-size: 1.2em;
-    color: #1b2027;
-    font-family: fonte2;
-}
-.cabecalho-col a:hover{
-    color: red;
-}
 
 
 
