@@ -12,81 +12,93 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px 10px 0px;
+    position: sticky;
+}
 
-header{
-    background-color: var(--cor5);
-    color: var(--cor5);
-    text-align: center;
-    padding: 20px;
+.cabecalho-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-header  h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--cor2);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
-}
-header p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.6em;
-    color: var(--cor3);
-}
-nav{
-    background-color: #ffffff;
-    padding: 10px;
 
+.cabecalho-container span{
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #383D88;
 }
-nav a{
+
+.cabecalho-col a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 6px;
+    font-size: 1.2em;
+    color: #1b2027;
+    font-family: fonte2;
+}
+
+.cabecalho-col a:hover{
+    color: red;
+}
+
+.cabecalho h3{
     font-family: fonte1;
+    color: #DF332E;
 }
-nav a:hover{
-    background-color: var(--cor2);
-    transition: 0.6s;
-    color: white;
-    background-color: #f56865;
-    
-}
+
 .fundo-banner h1{
     padding-top: 160px ;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
+
 .fundo-banner h3{
     color: #f56865;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
-
 }
+
 .fundo-banner p{
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.3em;
-    width: 450px;
-    font-size: 1.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2em;
+    max-width: 450px;
+    font-size: 1.4em;
     padding-top: 10px;
     padding-bottom: 26px;
 }
+
 section.fundo-banner{
-    background-image: url(img/remediosbanner3.png);
+    background-image: url(img/fundobanner.png);
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #2255D2;
-    padding: 20px;
-    height: 62vh;
+    background-color: #0044f1ea;
+    padding: 0px 0px 0px 54px;
+    height: 80vh;
     margin: auto;
+<<<<<<< HEAD
     width: 80%;
     border-radius: 20px;
+=======
+    max-width: 100%;
+    border-radius: 0px;
+>>>>>>> c089e8b8690b6d969bec7844e040df12a94fed63
     position: relative;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.171);
+}
+
+section.fundo-banner a{
+    display: inline;
+    margin-right: 12px;
 }
 
 .fundo-banner a{
@@ -101,46 +113,63 @@ section.fundo-banner{
     width: 150px;
     border-radius: 10px;
 }
+
 .fundo-banner a:hover{
     color: rgb(255, 255, 255);
     background-color: #ff0400;
     transition: 0.5s
 }
 
+span.destaque{
+    color: #f56865;
+}
+
 main{
     margin: auto;
+<<<<<<< HEAD
     padding: 20px;
     max-width: 1200px;
     background-color:white;
+=======
+    padding: 0px 0px 20px 0px;
+>>>>>>> c089e8b8690b6d969bec7844e040df12a94fed63
 }
 main h2{
+    color: #000000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
     padding-top: 50px;
     padding-bottom: 20px;
-    font-family: fonte3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 aside img{
     width: 80px;
     height: 80px;
+    padding: 20px 20px 10px 20px;
+}
+section.conteudo{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    max-width: 90%;
     margin: auto;
 }
 aside{
-    display: flex;
-    gap: 10px;
+    display: inline-block;
     flex-wrap: wrap;
     max-width: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.123);
-    padding: 20px;
+    border: 0px solid rgba(0, 0, 0, 0.123);
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
     border-radius: 10px;
     font-family: fonte1;
     font-size: 0.8em;
     background-color: #FCFCFC;
-    margin: 5px;
 }
 aside p{
     color: blue;
     font-family: fonte1;
     font-size: 1.2em;
-   
     text-align: left;
     padding: 2px;
 
@@ -163,6 +192,64 @@ aside:hover{
     transition: 0.5s;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267);
 }
+.footer {
+    background: radial-gradient(circle at top, #1E3EA1, #1E3EA1);
+    color: #ccc;
+    padding: 48px 22px 30px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.footer-col img{
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+    border-radius: 11px;
+}
+.footer-col img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.footer-col h2 {
+    padding-bottom: 18px;  
+    color: #fff;
+    letter-spacing: 2px;
+}
+.footer-col p {
+    font-size: 16px;
+    line-height: 1.6em;
+    max-width: 260px;
+}
+.footer-col a {
+    color: #BFDBEB;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-col a:hover {
+    color: #ffffff;
+}
+/*responsivo footer */
+@media (max-width: 700px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+
+
 
 
    
