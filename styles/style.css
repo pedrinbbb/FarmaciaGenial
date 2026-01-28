@@ -12,6 +12,24 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@font-face {
+            font-family: fonte;
+            src: url(fontes/PassoTest-SemiBold.ttf) format(truetype);
+        }
+        @font-face {
+            font-family: fonte1;
+            src: url(fontes/PassoTest-Regular.ttf) format(truetype);
+        }
+        @font-face {
+            font-family: fonte2;
+            src: url(fontes/PassoTest-Medium.ttf) format(truetype);
+        }
+
+        @font-face {
+            font-family: fonte3;
+            src: url(fontes/PassoTest-Bold.ttf) format(truetype);
+        }
 .cabecalho{
     background-color: rgb(255, 255, 255);
     padding: 0px 12px 0px 12px;
@@ -49,6 +67,53 @@
     font-family: fonte1;
     color: #DF332E;
 }
+/* header catalogo*/
+.catalogo{
+    background-image: linear-gradient(to right, #1E3A8B, #1E40AF);
+    color: white;
+    text-align: center;
+    font-family: fonte1;
+    padding: 22px;
+}
+.catalogo h1{
+    font-size: 2em;
+    margin-bottom: 12px;
+    font-family: fonte1;
+}
+.catalogo p{
+    font-size: 1.1em;
+    font-family: fonte1;
+    line-height: 1.4em;
+}
+/* header catalogo*/
+
+/*pesquisa catalogo*/
+form{
+    margin-top: 30px;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+}
+input[type="text"]{
+    width: 60%;
+    padding: 8px 12px;
+    align-items: center;
+    font-size: 0.9em;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.767);
+}
+input[type="text"]:focus{
+    outline: none;
+    border: 1px solid var(--cor2);
+    box-shadow: 0px 0px 10px 0px rgba(56, 61, 136, 0.438);
+}
+#resultado{
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+/*pesquisa catalogo*/
 
 .fundo-banner h1{
     padding-top: 130px;
@@ -301,11 +366,7 @@ aside:hover{
         font-size: 12px;
     }
 }
-@media(max-width: 1260px){
-    .footer-col{
-    flex-direction: column 2;
-    }
-}
+
 
 
 
