@@ -83,7 +83,7 @@
 }
 
 main{
-    max-width: 1000px;
+    max-width: 1800px;
     margin: auto;
 }
 aside img{
@@ -99,7 +99,6 @@ section.conteudo{
 }
 aside{
     display: inline-block;
-    flex-wrap: wrap;
     max-width: 200px;
     border: 0px solid rgba(0, 0, 0, 0.123);
     padding: 16px;
@@ -138,13 +137,21 @@ aside:hover{
 form{
     margin-top: 30px;
     padding: 12px;
+    text-align: center;
+    margin: auto;
 }
 input[type="text"]{
-    width: 200px;
-    padding: 8px;
+    width: 60%;
+    padding: 8px 12px;
+    align-items: center;
     font-size: 0.9em;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.767);
+}
+input[type="text"]:focus{
+    outline: none;
+    border: 1px solid var(--cor2);
+    box-shadow: 0px 0px 10px 0px rgba(56, 61, 136, 0.438);
 }
 #resultado{
     color: red;
@@ -152,13 +159,14 @@ input[type="text"]{
     margin-top: 10px;
 
 }
-
 .footer {
     background: radial-gradient(circle at top, #1E3EA1, #1E3EA1);
     color: #ccc;
     padding: 48px 22px 30px;
     font-family: Arial, sans-serif;
     margin-top: 50px;
+    margin-bottom: 0px;
+    height: 100%;
 }
 
 .footer-container {
@@ -231,4 +239,16 @@ input[type="text"]{
     .cabecalho-col a{
         font-size: 1.2em;
     }
+}
+/*responsivo footer */
+@media (max-width: 700px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
 }
