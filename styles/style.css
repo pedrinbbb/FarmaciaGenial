@@ -223,7 +223,7 @@ section.conteudo{
 }
 aside{
     display: inline-block;
-    max-width: 200px;
+    width: 156px;
     border: 0px solid rgba(0, 0, 0, 0.123);
     padding: 16px;
     border: 1px solid rgba(0, 0, 0, 0.377);
@@ -350,7 +350,7 @@ aside:hover{
     }
 }
 /* imagem produto responsiva*/
-@media(max-width: 411px){
+@media(max-width: 413px){
     aside img{
         width: 64px;
         height: 64px;
@@ -367,7 +367,7 @@ aside:hover{
     }
 }
 /* imagem produto responsiva*/
-@media(max-width: 369px){
+@media(max-width: 413px){
     aside {
         width: 35%;
     }
