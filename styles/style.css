@@ -366,6 +366,26 @@ aside:hover{
         font-size: 12px;
     }
 }
+/* imagem produto responsiva*/
+@media(max-width: 369px){
+    aside {
+        width: 35%;
+    }
+    aside > a > img {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+    }
+    aside a{
+        font-size: 9px;
+    }
+    aside h3{
+        font-size: 12px;
+    }
+    aside p {
+        font-size: 11px;
+    }
+}
 
 
 
