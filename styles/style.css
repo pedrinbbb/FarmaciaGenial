@@ -30,6 +30,10 @@
             font-family: fonte3;
             src: url(fontes/PassoTest-Bold.ttf) format(truetype);
         }
+
+html{
+    scroll-behavior: smooth;
+}
 .cabecalho{
     background-color: rgb(255, 255, 255);
     padding: 0px 12px 0px 12px;
